@@ -1,0 +1,10 @@
+<app-headerNabila (featureSelected)="onNavigate($event)"></app-headerNabila>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <!--<app-recipeNabila *ngIf="loadedFeature === 'recipeNabila'"></app-recipeNabila>
+      <app-shopping-listNabila *ngIf="loadedFeature !== 'recipeNabila'"></app-shopping-listNabila>-->
+    <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
